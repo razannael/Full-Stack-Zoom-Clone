@@ -8,6 +8,12 @@
   box-sizing: border-box;
 }
 
+/* Add this to your CSS to support the browsers mentioned */
+html {
+  text-size-adjust: 100%;
+}
+
+
 /* ======== stream css overrides ======== */
 .str-video__call-stats {
   max-width: 500px;

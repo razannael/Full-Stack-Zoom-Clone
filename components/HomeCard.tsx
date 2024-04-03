@@ -13,7 +13,7 @@ const HomeCard = ({img, title, description, handleClick, className}
 
   return (
     <div className={cn('rounded-[14px] px-4 py-6 flex flex-col justify-between w-full xl:max-w-[270px] min-h-[220px] cursor-pointer',className)}
-        onClick={() => {}}>
+        onClick={handleClick}>
           <div className='flex-center glassmorphism size-12 rounded-[10px]'>
             <Image src={img}
             alt={title}
