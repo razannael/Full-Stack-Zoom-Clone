@@ -13,6 +13,8 @@ import { Textarea } from './ui/textarea';
 import ReactDatePicker from 'react-datepicker';
 import { useToast } from './ui/use-toast';
 import { Input } from './ui/input';
+import 'react-datepicker/dist/react-datepicker.css';
+import '@stream-io/video-react-sdk/dist/css/styles.css';
 
 
 const initialValues = {
